@@ -15,4 +15,11 @@ Requires pygame library (and Python 3.6 or newer)
 
 Don't touch the rest if you don't know what you are doing :D 
 
+
+_________SETUP________
+Create a folder with the name "images"
+Place both png files (ship.png and alien.png) into the "images" folder
+Run "run_game.py"
+Don't lose ;)
+
 ########################## HAVE FUN!!! ##########################
