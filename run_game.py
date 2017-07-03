@@ -6,7 +6,7 @@ from settings import Settings
 from ship import Ship
 from alien import Alien
 from game_stats import GameStats
-from button import button
+from button import Button
 
 def run_game():
     # Start the game and create a screen
@@ -37,7 +37,7 @@ def run_game():
             gf.update_bullets(ai_settings, screen, ship, aliens, bullets)
             gf.update_aliens(ai_settings, stats, screen, ship, aliens, bullets)
             
-        gf.update_screen(ai_settings, screen, ship, aliens, bullets, play_button)
+        gf.update_screen(ai_settings, screen, stats, ship, aliens, bullets, play_button)
 
     # Create the fleet of aliens
     gf.create_fleet(ai_settings, screen, ship, aliens)
